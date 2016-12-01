@@ -1,0 +1,28 @@
+[
+  { "keys": ["alt+shift+up"],   "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true } },
+
+  { "keys": ["super+§"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+
+  { "keys": ["super+k"], "command": "expand_selection", "args": {"to": "line"} },
+
+  { "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+
+  { "keys": ["super+shift+v"], "command": "paste" },
+  { "keys": ["super+v"],       "command": "paste_and_indent" },
+
+  { "keys": ["alt+shift+left"],  "command": "move", "args": {"by": "wordboundaries", "forward": false, "extend": true} },
+  { "keys": ["alt+shift+right"], "command": "move", "args": {"by": "wordboundaries", "forward": true,  "extend": true} },
+
+  { "keys": ["super+d"], "command": "duplicate_line" },
+  { "keys": ["ctrl+shift+d"], "command": "duplicate_line" },
+
+  { "keys": ["super+shift+u"], "command": "upper_case" },
+  { "keys": ["super+shift+l"], "command": "lower_case" },
+
+  { "keys": ["ctrl+shift+l"], "command": "split_selection_into_lines" },
+
+  { "keys": ["super+shift+o"], "command": "open_gem" },
+
+  { "keys": ["super+shift+k"], "command": "expand_selection", "args": {"to": "word"} },
+]
