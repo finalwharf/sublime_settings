@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<%${1:=} ${2:expression} %>]]></content>
+  <tabTrigger>==</tabTrigger>
+  <scopes>
+    <scope>text.html.ruby</scope>
+    <scope>text.html.eco</scope>
+  </scopes>
+</snippet>
